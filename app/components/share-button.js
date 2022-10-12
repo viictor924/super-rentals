@@ -23,9 +23,6 @@ export default class ShareButtonComponent extends Component {
       url.searchParams.set('hashtags', this.args.hashtags);
     }
 
-
-
-    
     if (this.args.via) {
       url.searchParams.set('via', this.args.via);
     }
